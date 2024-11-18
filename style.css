@@ -1,0 +1,55 @@
+.foto {
+    display: flex;
+    justify-content: space-around;
+}
+.foto1 {
+    opacity: 0.3;
+    
+}
+.foto2 {
+    opacity: 0.3;
+    
+}.foto1:hover {
+    opacity: 1;
+    
+}.foto2:hover {
+    opacity: 1;
+    
+}
+.katror{
+    transition: width, height 5s;
+    transition-delay: 2s ;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition-duration: 2s;
+    }
+    .katror:hover{
+        width:300px ;
+    }
+    .ok{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        transform: rotate(200deg);
+    }
+    .animation {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+      }
+      :root{
+        --bardh:white
+      }
